@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21FCFDC70C089A03FB40F060 /* Pods_SVPMap_ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04545C48A202358D38EDE143 /* Pods_SVPMap_ios_core.framework */; };
 		6B67B0F45E851EDA29614CAD /* Pods_ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74755B3401ABE74DEA4D487 /* Pods_ios_core.framework */; };
 		940E095B1EC5E43E00C40971 /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E09521EC5E43E00C40971 /* checkbox_checked.png */; };
 		940E095C1EC5E43E00C40971 /* checkbox_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 940E09531EC5E43E00C40971 /* checkbox_pressed.png */; };
@@ -74,8 +73,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04545C48A202358D38EDE143 /* Pods_SVPMap_ios_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVPMap_ios_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19993BF413DF2540E80200C2 /* Pods-SVPMap-ios_core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVPMap-ios_core.release.xcconfig"; path = "ios_core/Pods/Target Support Files/Pods-SVPMap-ios_core/Pods-SVPMap-ios_core.release.xcconfig"; sourceTree = "<group>"; };
 		5D2D5227F90AD42C4681CB3E /* Pods-ios_core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_core.debug.xcconfig"; path = "ios_core/Pods/Target Support Files/Pods-ios_core/Pods-ios_core.debug.xcconfig"; sourceTree = "<group>"; };
 		793D8D54A2E01C88EAF19B10 /* Pods-ios_core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_core.release.xcconfig"; path = "ios_core/Pods/Target Support Files/Pods-ios_core/Pods-ios_core.release.xcconfig"; sourceTree = "<group>"; };
 		940E09521EC5E43E00C40971 /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
@@ -133,7 +130,6 @@
 		94899DBE1EBC636C00CB7BA2 /* ChapterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChapterProtocol.swift; path = tasks/ChapterProtocol.swift; sourceTree = "<group>"; };
 		94899DC81EBC6AFD00CB7BA2 /* ico_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_zoom.png; sourceTree = "<group>"; };
 		94899DC91EBC6AFD00CB7BA2 /* ico_zoom_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_zoom_pressed.png; sourceTree = "<group>"; };
-		B3DF7E8E9B2FC3E06CDCB593 /* Pods-SVPMap-ios_core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVPMap-ios_core.debug.xcconfig"; path = "ios_core/Pods/Target Support Files/Pods-SVPMap-ios_core/Pods-SVPMap-ios_core.debug.xcconfig"; sourceTree = "<group>"; };
 		F74755B3401ABE74DEA4D487 /* Pods_ios_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -143,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B67B0F45E851EDA29614CAD /* Pods_ios_core.framework in Frameworks */,
-				21FCFDC70C089A03FB40F060 /* Pods_SVPMap_ios_core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				F74755B3401ABE74DEA4D487 /* Pods_ios_core.framework */,
-				04545C48A202358D38EDE143 /* Pods_SVPMap_ios_core.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -299,8 +293,6 @@
 			children = (
 				5D2D5227F90AD42C4681CB3E /* Pods-ios_core.debug.xcconfig */,
 				793D8D54A2E01C88EAF19B10 /* Pods-ios_core.release.xcconfig */,
-				B3DF7E8E9B2FC3E06CDCB593 /* Pods-SVPMap-ios_core.debug.xcconfig */,
-				19993BF413DF2540E80200C2 /* Pods-SVPMap-ios_core.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
