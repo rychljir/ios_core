@@ -1,0 +1,11 @@
+project '/Users/scientica/Documents/rychljir/ios_core/ios_core'
+
+use_frameworks!
+
+platform :ios, '9.3'
+
+target 'ios_core' do
+    pod 'AEXML'
+    pod 'PureLayout'
+    pod 'DLRadioButton'
+end
