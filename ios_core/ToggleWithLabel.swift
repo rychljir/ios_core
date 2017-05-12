@@ -49,7 +49,7 @@ public class ToggleWithLabel: UIView {
     }
     
     public class func instanceFromNib() -> UIView {
-        return UINib(nibName: "ToggleWithLabel", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
+        return Bundle(for: ToggleWithLabel.self).loadNibNamed("ToggleWithLabel", owner: self, options: nil)?.first as! ToggleWithLabel
     }
     
     public func setLabel(text: String){
