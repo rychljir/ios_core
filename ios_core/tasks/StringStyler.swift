@@ -16,6 +16,10 @@ import UIKit
 
 public class StringStyler{
     
+    public init(){
+        
+    }
+    
     //method for replacement of html tags by attributed String
     public func convertText(inputText: String) -> NSAttributedString {
         
