@@ -36,8 +36,8 @@ s.dependency 'DLRadioButton'
 s.dependency 'DragDropUI'
 
 # 8
-s.source_files = "**/*.{swift}"
+s.source_files = "ios_core/**/*.{swift}"
 
 # 9
-s.resources = "**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "ios_core/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
