@@ -2,14 +2,19 @@
 //  TitleTextBottomImageSlide.swift
 //  Satnav
 //
-//  Created by Petr Mares on 06.04.17.
+//  Created by Jiri Rychlovsky on 06.04.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 
-public class TitleTextBottomImageSlide: UIView {
 
+/*
+ 
+ A task which contains title, description and image
+ 
+ */
+public class TitleTextBottomImageSlide: UIView {
 
     @IBOutlet weak var taskTitle: UILabel!
     @IBOutlet weak var desc: UILabel!

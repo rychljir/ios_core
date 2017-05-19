@@ -2,7 +2,7 @@
 //  RadioButtonsGroup.swift
 //  SVPMap
 //
-//  Created by Petr Mares on 12.05.17.
+//  Created by Jiri Rychlovsky on 12.05.17.
 //  Copyright © 2017 Science in. All rights reserved.
 //
 
@@ -10,6 +10,11 @@ import UIKit
 import PureLayout
 import DLRadioButton
 
+/*
+ 
+ Question of type="singlechoice"
+ 
+ */
 public class SingleChoiceQuestion: UIView {
     
     public var radios = [DLRadioButton]()

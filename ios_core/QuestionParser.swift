@@ -2,24 +2,35 @@
 //  QuestionParser.swift
 //  SVPMap
 //
-//  Created by Petr Mares on 05.05.17.
+//  Created by Jiri Rychlovsky on 05.05.17.
 //  Copyright © 2017 Science in. All rights reserved.
 //
 
 import Foundation
 import AEXML
 
+/*
+ 
+    Class for parsing XML input of <questionset>
+ 
+ */
 public class QuestionParser{
     var xmlDoc: AEXMLDocument?
+    
+    //Array of tags <task>
     var tasks = [Task]()
+    
+    //<questionset maxTries="">
     var maxTries = 1
     
+    //constructor
     public init(xmlDocument: AEXMLDocument){
         xmlDoc = xmlDocument
         parseXML()
     }
     
     
+    //parsing XML input
     public func parseXML(){
         if let tries = xmlDoc?.root.attributes["maxTries"]{
             maxTries = Int(tries)!
@@ -123,10 +134,12 @@ public class QuestionParser{
         }
     }
     
+    //returns array of objects mapped on <task>
     public func getTasks() -> [Task]{
         return tasks
     }
     
+    //return number of maxTries in attribute of <questionset>
     public func getTries() -> Int{
         return maxTries
     }

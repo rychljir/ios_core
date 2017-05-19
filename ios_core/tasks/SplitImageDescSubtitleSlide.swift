@@ -2,12 +2,17 @@
 //  SplitImageDescSubtitleSlide.swift
 //  Satnav
 //
-//  Created by Petr Mares on 06.04.17.
+//  Created by Jiri Rychlovsky on 06.04.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 
+/*
+ 
+ A task which containst two level titles, image and descritpion
+ 
+ */
 public class SplitImageDescSubtitleSlide: UIView {
 
     @IBOutlet weak var taskTitle: UILabel!

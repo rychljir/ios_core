@@ -2,7 +2,7 @@
 //  v_quest_img.swift
 //  SVPMap
 //
-//  Created by Petr Mares on 08.05.17.
+//  Created by Jiri Rychlovsky on 08.05.17.
 //  Copyright © 2017 Science in. All rights reserved.
 //
 
@@ -10,17 +10,35 @@ import UIKit
 import PureLayout
 import DLRadioButton
 
-
+/*
+ 
+ Class for creating v_quest_img layout for <questionslide>
+ 
+ */
 public class v_quest_img: UIView{
+    
+    //flag for autolayout
     var shouldSetupConstraints = true
+    
+    //calling ViewController
     var parentVC: UIViewController?
+    
+    //number of maximum attempts to evalute task
     var maxTries = 1
+    
+    //counter of evaluation tries
     var currentTries = 0
+    
+    //<question type="">
     var qType: String!
+    
+    //container for placement of dynamic added views
     @IBOutlet weak var qContainer: UIView!
     
+    //evaluation button
     @IBOutlet weak var evalBtn: UIButton!
 
+    //possible instances of question types
     var singleChoice: SingleChoiceQuestion?
     var multiChoice: MultichoiceQuestion?
     var interval: IntervalQuestion?
@@ -28,10 +46,14 @@ public class v_quest_img: UIView{
     var number: NumberQuestion?
     var toggle: ToggleButtonsQuestion?
 
+    //dynamic creation of <questionslide>
     public func initSlide(question: QuestionSlide, maximumTries: Int,  callingViewController: UIViewController){
         parentVC = callingViewController
         
+        //for every element of <question>
         for element in question.components{
+            
+            //<description>
             if let descElement = element as? QuestionDescription{
                 let title = UILabel(frame: CGRect.zero)
                 title.text = descElement.value
@@ -42,11 +64,14 @@ public class v_quest_img: UIView{
                 qContainer.addSubview(title)
             }
             
+            //<questions>
             if let questionsElement = element as? QuestionQuestions{
                 if questionsElement.values.count>0{
                     let q = questionsElement.values[0]
                     
+                    //<question type="">
                     qType = q.type
+                    //<description>
                     if let desc = q.description{
                         let qTitle = UILabel(frame: CGRect.zero)
                         qTitle.text = desc
@@ -56,12 +81,14 @@ public class v_quest_img: UIView{
                         qTitle.numberOfLines = 0
                         qContainer.addSubview(qTitle)
                     }
+                    //<question shuffle="">
                     if let shuffle = q.shuffle{
                         if shuffle == "true"{
                             shuffleVariants(question: q)
                         }
                     }
                     
+                    //<question type="">
                     if let type = qType{
                         switch type {
                         case "singlechoice":
@@ -113,6 +140,7 @@ public class v_quest_img: UIView{
                     }
                 }
             }
+            //<images>
             if let imgElement = element as? QuestionImage{
                     let imageView = UIImageView(frame: CGRect.zero)
                     imageView.image = UIImage(named: imgElement.name)
@@ -130,6 +158,7 @@ public class v_quest_img: UIView{
 
     }
     
+    //shuffle variants in question
     func shuffleVariants(question q: Question){
         var shuffler = [Int]()
         for i in 0 ..< q.variants.count{
@@ -149,6 +178,7 @@ public class v_quest_img: UIView{
         
     }
     
+    //autolayout constraints
     override public func updateConstraints() {
         if(shouldSetupConstraints) {
             if(qContainer.subviews.count>0){
@@ -170,6 +200,7 @@ public class v_quest_img: UIView{
         super.updateConstraints()
     }
     
+    //action after click on Evaluate button
     @IBAction private func evaluateTask(eval : UIButton) {
         currentTries = currentTries + 1
         switch qType! {
@@ -261,6 +292,8 @@ public class v_quest_img: UIView{
     }
 }
 
+
+//shuffle values of an array
 extension Array {
     mutating func shuffle () {
         for i in (0..<self.count).reversed() {

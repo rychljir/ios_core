@@ -2,12 +2,17 @@
 //  TitleTextSlide.swift
 //  Satnav
 //
-//  Created by Petr Mares on 24.03.17.
+//  Created by Jiri Rychlovsky on 24.03.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 
+/*
+ 
+ A task which contains a fullscreen image and a title with description
+ 
+ */
 public class TitleTextSlide: UIView {
 
     @IBOutlet weak var titleLabel: UILabel!

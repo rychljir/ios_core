@@ -2,12 +2,17 @@
 //  FullscreenModal.swift
 //  Satnav
 //
-//  Created by Petr Mares on 11.04.17.
+//  Created by Jiri Rychlovsky on 11.04.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 
+/*
+ 
+ UIViewController which is shown as a fullscreen modal by ThreeImagesModalSlide
+ 
+ */
 public class FullscreenModal: UIViewController {
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var text: UILabel!

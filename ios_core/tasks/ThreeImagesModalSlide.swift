@@ -2,12 +2,17 @@
 //  ThreeImageModalSlide.swift
 //  Satnav
 //
-//  Created by Petr Mares on 30.03.17.
+//  Created by Jiri Rychlovsky on 30.03.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 
+/*
+ 
+ A task with three images, which will show a modal with a detail description
+ 
+ */
 public class ThreeImagesModalSlide: UIView {
 
 

@@ -2,11 +2,16 @@
 //  ToastExtension.swift
 //  ios_core
 //
-//  Created by Petr Mares on 12.05.17.
+//  Created by Jiri Rychlovsky on 12.05.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import Foundation
+/*
+ 
+ Extension which simulates the behavior of Toast in Android
+ 
+ */
 public extension UIViewController {
     public func showToast(message : String) {
         let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 200, y: self.view.frame.size.height-150, width: 400, height: 70))

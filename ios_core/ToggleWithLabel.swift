@@ -2,12 +2,17 @@
 //  SwitchWithText.swift
 //  SVPMap
 //
-//  Created by Petr Mares on 11.05.17.
+//  Created by Jiri Rychlovsky on 11.05.17.
 //  Copyright © 2017 Science in. All rights reserved.
 //
 
 import UIKit
 
+/*
+ 
+ UIView object which has two buttons and a label, only one button can be selected in 1 time
+ 
+ */
 public class ToggleWithLabel: UIView {
     @IBOutlet weak var yes: UIButton!
     @IBOutlet weak var label: UILabel!

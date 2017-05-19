@@ -2,15 +2,21 @@
 //  StringStyler.swift
 //  Satnav
 //
-//  Created by Petr Mares on 31.03.17.
+//  Created by Jiri Rychlovsky on 31.03.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import UIKit
 
+/*
+  
+  This class is for creating NSAttritbuted string by HTML tags
+ 
+ */
+
 public class StringStyler{
     
-    //method for string conversation
+    //method for replacement of html tags by attributed String
     public func convertText(inputText: String) -> NSAttributedString {
         
         var attrString = NSMutableAttributedString(string: inputText)
@@ -29,6 +35,7 @@ public class StringStyler{
         return attrString
     }
     
+    //method which is removing tags from input
     func fixText(inputText:NSMutableAttributedString, attributeName:AnyObject, attributeValue:AnyObject, propsIndicator:String, propsEndIndicator:String)->NSMutableAttributedString{
         var r1 = (inputText.string as NSString).range(of: propsIndicator)
         while r1.location != NSNotFound {

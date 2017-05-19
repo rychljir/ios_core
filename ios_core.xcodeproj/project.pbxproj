@@ -35,7 +35,6 @@
 		9475AC311EBB704700E838D8 /* ios_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475AC271EBB704700E838D8 /* ios_core.framework */; };
 		9475AC361EBB704700E838D8 /* ios_coreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475AC351EBB704700E838D8 /* ios_coreTests.swift */; };
 		9475AC381EBB704700E838D8 /* ios_core.h in Headers */ = {isa = PBXBuildFile; fileRef = 9475AC2A1EBB704700E838D8 /* ios_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9475AC421EBB708B00E838D8 /* tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475AC411EBB708B00E838D8 /* tester.swift */; };
 		94899DA31EBC5F3200CB7BA2 /* TitleTextSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94899DA11EBC5F3200CB7BA2 /* TitleTextSlide.swift */; };
 		94899DA41EBC5F3200CB7BA2 /* TitleTextSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94899DA21EBC5F3200CB7BA2 /* TitleTextSlide.xib */; };
 		94899DB31EBC62D000CB7BA2 /* FullscreenModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94899DA81EBC62D000CB7BA2 /* FullscreenModal.swift */; };
@@ -87,7 +86,7 @@
 		940E09841EC5E55400C40971 /* v_quest_img.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = v_quest_img.swift; sourceTree = "<group>"; };
 		940E09851EC5E55400C40971 /* v_quest_img.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = v_quest_img.xib; sourceTree = "<group>"; };
 		940E09921EC5E5DC00C40971 /* ToastExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToastExtension.swift; path = tasks/ToastExtension.swift; sourceTree = "<group>"; };
-		940E09981EC5F27E00C40971 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		940E09981EC5F27E00C40971 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		946B72821EC602FF00D98A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9475AC271EBB704700E838D8 /* ios_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ios_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9475AC2A1EBB704700E838D8 /* ios_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_core.h; sourceTree = "<group>"; };
@@ -95,7 +94,6 @@
 		9475AC301EBB704700E838D8 /* ios_coreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_coreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9475AC351EBB704700E838D8 /* ios_coreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_coreTests.swift; sourceTree = "<group>"; };
 		9475AC371EBB704700E838D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9475AC411EBB708B00E838D8 /* tester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tester.swift; sourceTree = "<group>"; };
 		94899DA11EBC5F3200CB7BA2 /* TitleTextSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTextSlide.swift; sourceTree = "<group>"; };
 		94899DA21EBC5F3200CB7BA2 /* TitleTextSlide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleTextSlide.xib; sourceTree = "<group>"; };
 		94899DA81EBC62D000CB7BA2 /* FullscreenModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullscreenModal.swift; sourceTree = "<group>"; };
@@ -212,7 +210,6 @@
 				94899DA01EBC5BA700CB7BA2 /* tasks */,
 				9475AC2A1EBB704700E838D8 /* ios_core.h */,
 				9475AC2B1EBB704700E838D8 /* Info.plist */,
-				9475AC411EBB708B00E838D8 /* tester.swift */,
 			);
 			path = ios_core;
 			sourceTree = "<group>";
@@ -432,7 +429,6 @@
 				940E09861EC5E55400C40971 /* Question.swift in Sources */,
 				940E09931EC5E5DC00C40971 /* ToastExtension.swift in Sources */,
 				940E096E1EC5E4FC00C40971 /* MultichoiceQuestion.swift in Sources */,
-				9475AC421EBB708B00E838D8 /* tester.swift in Sources */,
 				940E09701EC5E4FC00C40971 /* SingleChoiceQuestion.swift in Sources */,
 				940E09901EC5E55400C40971 /* v_quest_img.swift in Sources */,
 				940E09871EC5E55400C40971 /* QuestionComponent.swift in Sources */,
