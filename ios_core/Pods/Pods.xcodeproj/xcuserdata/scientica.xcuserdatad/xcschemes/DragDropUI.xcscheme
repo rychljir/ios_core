@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '259D0A781C86B49592CDAA9ACC3C14E9'
-               BlueprintName = 'PureLayout'
+               BlueprintIdentifier = '991C445B77F030F02D7F5422E59753F1'
+               BlueprintName = 'DragDropUI'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'PureLayout.framework'>
+               BuildableName = 'DragDropUI.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

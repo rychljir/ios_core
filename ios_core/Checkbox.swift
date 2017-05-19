@@ -7,10 +7,10 @@
 //
 
 import UIKit
-
+import PureLayout
 /*
  
- UIButton object simulating behviour of Checkbox
+ UIButton object simulating behaviour of Checkbox
  
  */
 public class Checkbox: UIButton {
