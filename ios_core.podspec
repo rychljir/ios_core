@@ -36,5 +36,5 @@ s.dependency 'DragDropUI'
 s.source_files = "ios_core/**/*.{swift}"
 
 # 9
-s.resources = "ios_core/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "ios_core/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 end
