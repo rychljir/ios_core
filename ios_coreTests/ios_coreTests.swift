@@ -2,7 +2,7 @@
 //  ios_coreTests.swift
 //  ios_coreTests
 //
-//  Created by Petr Mares on 04.05.17.
+//  Created by Jiri Rychlovsky on 04.05.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
@@ -24,13 +24,6 @@ class ios_coreTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
     }
     
 }

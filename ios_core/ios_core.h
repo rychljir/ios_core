@@ -2,7 +2,7 @@
 //  ios_core.h
 //  ios_core
 //
-//  Created by Petr Mares on 04.05.17.
+//  Created by Jiri Rychlovsky on 04.05.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 

@@ -51,6 +51,19 @@
 		94899DBC1EBC62D000CB7BA2 /* TitleTextBottomImageSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94899DB11EBC62D000CB7BA2 /* TitleTextBottomImageSlide.swift */; };
 		94899DBD1EBC62D000CB7BA2 /* TitleTextBottomImageSlide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94899DB21EBC62D000CB7BA2 /* TitleTextBottomImageSlide.xib */; };
 		94899DBF1EBC636C00CB7BA2 /* ChapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94899DBE1EBC636C00CB7BA2 /* ChapterProtocol.swift */; };
+		94F4345E1ED1E08C00DEE9E8 /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434511ED1E08C00DEE9E8 /* checkbox_checked.png */; };
+		94F4345F1ED1E08C00DEE9E8 /* checkbox_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434521ED1E08C00DEE9E8 /* checkbox_pressed.png */; };
+		94F434601ED1E08C00DEE9E8 /* checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434531ED1E08C00DEE9E8 /* checkbox.png */; };
+		94F434611ED1E08C00DEE9E8 /* ico_close_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434541ED1E08C00DEE9E8 /* ico_close_pressed.png */; };
+		94F434621ED1E08C00DEE9E8 /* ico_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434551ED1E08C00DEE9E8 /* ico_close.png */; };
+		94F434631ED1E08C00DEE9E8 /* ico_zoom_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434561ED1E08C00DEE9E8 /* ico_zoom_pressed.png */; };
+		94F434641ED1E08C00DEE9E8 /* ico_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434571ED1E08C00DEE9E8 /* ico_zoom.png */; };
+		94F434651ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434581ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png */; };
+		94F434661ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434591ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png */; };
+		94F434671ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F4345A1ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png */; };
+		94F434681ED1E08C00DEE9E8 /* vyhodnotit_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F4345B1ED1E08C00DEE9E8 /* vyhodnotit_disabled.png */; };
+		94F434691ED1E08C00DEE9E8 /* vyhodnotit_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F4345C1ED1E08C00DEE9E8 /* vyhodnotit_normal.png */; };
+		94F4346A1ED1E08C00DEE9E8 /* vyhodnotit_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F4345D1ED1E08C00DEE9E8 /* vyhodnotit_pressed.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +125,19 @@
 		94899DB11EBC62D000CB7BA2 /* TitleTextBottomImageSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTextBottomImageSlide.swift; sourceTree = "<group>"; };
 		94899DB21EBC62D000CB7BA2 /* TitleTextBottomImageSlide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleTextBottomImageSlide.xib; sourceTree = "<group>"; };
 		94899DBE1EBC636C00CB7BA2 /* ChapterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChapterProtocol.swift; path = tasks/ChapterProtocol.swift; sourceTree = "<group>"; };
+		94F434511ED1E08C00DEE9E8 /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
+		94F434521ED1E08C00DEE9E8 /* checkbox_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_pressed.png; sourceTree = "<group>"; };
+		94F434531ED1E08C00DEE9E8 /* checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox.png; sourceTree = "<group>"; };
+		94F434541ED1E08C00DEE9E8 /* ico_close_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_close_pressed.png; sourceTree = "<group>"; };
+		94F434551ED1E08C00DEE9E8 /* ico_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_close.png; sourceTree = "<group>"; };
+		94F434561ED1E08C00DEE9E8 /* ico_zoom_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_zoom_pressed.png; sourceTree = "<group>"; };
+		94F434571ED1E08C00DEE9E8 /* ico_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_zoom.png; sourceTree = "<group>"; };
+		94F434581ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnoceni_shouldbe.9.png; sourceTree = "<group>"; };
+		94F434591ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnoceni_spatne.9.png; sourceTree = "<group>"; };
+		94F4345A1ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnoceni_spravne.9.png; sourceTree = "<group>"; };
+		94F4345B1ED1E08C00DEE9E8 /* vyhodnotit_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnotit_disabled.png; sourceTree = "<group>"; };
+		94F4345C1ED1E08C00DEE9E8 /* vyhodnotit_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnotit_normal.png; sourceTree = "<group>"; };
+		94F4345D1ED1E08C00DEE9E8 /* vyhodnotit_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnotit_pressed.png; sourceTree = "<group>"; };
 		974761CF08ABB3F942D32B4B /* Pods_ios_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -257,6 +283,19 @@
 		94899DC71EBC6AFD00CB7BA2 /* res */ = {
 			isa = PBXGroup;
 			children = (
+				94F434511ED1E08C00DEE9E8 /* checkbox_checked.png */,
+				94F434521ED1E08C00DEE9E8 /* checkbox_pressed.png */,
+				94F434531ED1E08C00DEE9E8 /* checkbox.png */,
+				94F434541ED1E08C00DEE9E8 /* ico_close_pressed.png */,
+				94F434551ED1E08C00DEE9E8 /* ico_close.png */,
+				94F434561ED1E08C00DEE9E8 /* ico_zoom_pressed.png */,
+				94F434571ED1E08C00DEE9E8 /* ico_zoom.png */,
+				94F434581ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png */,
+				94F434591ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png */,
+				94F4345A1ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png */,
+				94F4345B1ED1E08C00DEE9E8 /* vyhodnotit_disabled.png */,
+				94F4345C1ED1E08C00DEE9E8 /* vyhodnotit_normal.png */,
+				94F4345D1ED1E08C00DEE9E8 /* vyhodnotit_pressed.png */,
 			);
 			path = res;
 			sourceTree = "<group>";
@@ -374,10 +413,23 @@
 				946B72831EC602FF00D98A48 /* Assets.xcassets in Resources */,
 				94899DA41EBC5F3200CB7BA2 /* TitleTextSlide.xib in Resources */,
 				940E09911EC5E55400C40971 /* v_quest_img.xib in Resources */,
+				94F434601ED1E08C00DEE9E8 /* checkbox.png in Resources */,
 				94899DB61EBC62D000CB7BA2 /* SplitImageDescSlide.xib in Resources */,
+				94F434611ED1E08C00DEE9E8 /* ico_close_pressed.png in Resources */,
+				94F434681ED1E08C00DEE9E8 /* vyhodnotit_disabled.png in Resources */,
 				940E09991EC5F27E00C40971 /* Podfile in Resources */,
+				94F434621ED1E08C00DEE9E8 /* ico_close.png in Resources */,
+				94F4346A1ED1E08C00DEE9E8 /* vyhodnotit_pressed.png in Resources */,
+				94F434631ED1E08C00DEE9E8 /* ico_zoom_pressed.png in Resources */,
+				94F4345F1ED1E08C00DEE9E8 /* checkbox_pressed.png in Resources */,
+				94F434691ED1E08C00DEE9E8 /* vyhodnotit_normal.png in Resources */,
 				947CDA251ECF2A3C00C9CBCD /* ios_core.podspec in Resources */,
+				94F434641ED1E08C00DEE9E8 /* ico_zoom.png in Resources */,
 				94899DBB1EBC62D000CB7BA2 /* ThreeImagesModalSlide.xib in Resources */,
+				94F434671ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png in Resources */,
+				94F4345E1ED1E08C00DEE9E8 /* checkbox_checked.png in Resources */,
+				94F434651ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png in Resources */,
+				94F434661ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png in Resources */,
 				94899DBD1EBC62D000CB7BA2 /* TitleTextBottomImageSlide.xib in Resources */,
 				940E09791EC5E51600C40971 /* ToggleWithLabel.xib in Resources */,
 				94899DB81EBC62D000CB7BA2 /* SplitImageDescSubtitleSlide.xib in Resources */,

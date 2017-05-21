@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="1LK-jL-5Qf" customClass="Checkbox" customModule="SVPMap" customModuleProvider="target">
+        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="1LK-jL-5Qf" customClass="Checkbox" customModule="ios_core" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="333" height="94"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -22,6 +22,6 @@
     </objects>
     <resources>
         <image name="checkbox" width="64" height="50"/>
-        <image name="checkbox_pressed" width="128" height="100"/>
+        <image name="checkbox_pressed" width="64" height="50"/>
     </resources>
 </document>
