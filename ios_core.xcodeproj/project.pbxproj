@@ -58,9 +58,9 @@
 		94F434621ED1E08C00DEE9E8 /* ico_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434551ED1E08C00DEE9E8 /* ico_close.png */; };
 		94F434631ED1E08C00DEE9E8 /* ico_zoom_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434561ED1E08C00DEE9E8 /* ico_zoom_pressed.png */; };
 		94F434641ED1E08C00DEE9E8 /* ico_zoom.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434571ED1E08C00DEE9E8 /* ico_zoom.png */; };
-		94F434651ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434581ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png */; };
-		94F434661ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434591ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png */; };
-		94F434671ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F4345A1ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png */; };
+		94F434651ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434581ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.png */; };
+		94F434661ED1E08C00DEE9E8 /* vyhodnoceni_spatne.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F434591ED1E08C00DEE9E8 /* vyhodnoceni_spatne.png */; };
+		94F434671ED1E08C00DEE9E8 /* vyhodnoceni_spravne.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F4345A1ED1E08C00DEE9E8 /* vyhodnoceni_spravne.png */; };
 		94F434681ED1E08C00DEE9E8 /* vyhodnotit_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F4345B1ED1E08C00DEE9E8 /* vyhodnotit_disabled.png */; };
 		94F434691ED1E08C00DEE9E8 /* vyhodnotit_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F4345C1ED1E08C00DEE9E8 /* vyhodnotit_normal.png */; };
 		94F4346A1ED1E08C00DEE9E8 /* vyhodnotit_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 94F4345D1ED1E08C00DEE9E8 /* vyhodnotit_pressed.png */; };
@@ -132,9 +132,9 @@
 		94F434551ED1E08C00DEE9E8 /* ico_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_close.png; sourceTree = "<group>"; };
 		94F434561ED1E08C00DEE9E8 /* ico_zoom_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_zoom_pressed.png; sourceTree = "<group>"; };
 		94F434571ED1E08C00DEE9E8 /* ico_zoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_zoom.png; sourceTree = "<group>"; };
-		94F434581ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnoceni_shouldbe.9.png; sourceTree = "<group>"; };
-		94F434591ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnoceni_spatne.9.png; sourceTree = "<group>"; };
-		94F4345A1ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnoceni_spravne.9.png; sourceTree = "<group>"; };
+		94F434581ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnoceni_shouldbe.png; sourceTree = "<group>"; };
+		94F434591ED1E08C00DEE9E8 /* vyhodnoceni_spatne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnoceni_spatne.png; sourceTree = "<group>"; };
+		94F4345A1ED1E08C00DEE9E8 /* vyhodnoceni_spravne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnoceni_spravne.png; sourceTree = "<group>"; };
 		94F4345B1ED1E08C00DEE9E8 /* vyhodnotit_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnotit_disabled.png; sourceTree = "<group>"; };
 		94F4345C1ED1E08C00DEE9E8 /* vyhodnotit_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnotit_normal.png; sourceTree = "<group>"; };
 		94F4345D1ED1E08C00DEE9E8 /* vyhodnotit_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vyhodnotit_pressed.png; sourceTree = "<group>"; };
@@ -290,9 +290,9 @@
 				94F434551ED1E08C00DEE9E8 /* ico_close.png */,
 				94F434561ED1E08C00DEE9E8 /* ico_zoom_pressed.png */,
 				94F434571ED1E08C00DEE9E8 /* ico_zoom.png */,
-				94F434581ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png */,
-				94F434591ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png */,
-				94F4345A1ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png */,
+				94F434581ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.png */,
+				94F434591ED1E08C00DEE9E8 /* vyhodnoceni_spatne.png */,
+				94F4345A1ED1E08C00DEE9E8 /* vyhodnoceni_spravne.png */,
 				94F4345B1ED1E08C00DEE9E8 /* vyhodnotit_disabled.png */,
 				94F4345C1ED1E08C00DEE9E8 /* vyhodnotit_normal.png */,
 				94F4345D1ED1E08C00DEE9E8 /* vyhodnotit_pressed.png */,
@@ -426,10 +426,10 @@
 				947CDA251ECF2A3C00C9CBCD /* ios_core.podspec in Resources */,
 				94F434641ED1E08C00DEE9E8 /* ico_zoom.png in Resources */,
 				94899DBB1EBC62D000CB7BA2 /* ThreeImagesModalSlide.xib in Resources */,
-				94F434671ED1E08C00DEE9E8 /* vyhodnoceni_spravne.9.png in Resources */,
+				94F434671ED1E08C00DEE9E8 /* vyhodnoceni_spravne.png in Resources */,
 				94F4345E1ED1E08C00DEE9E8 /* checkbox_checked.png in Resources */,
-				94F434651ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.9.png in Resources */,
-				94F434661ED1E08C00DEE9E8 /* vyhodnoceni_spatne.9.png in Resources */,
+				94F434651ED1E08C00DEE9E8 /* vyhodnoceni_shouldbe.png in Resources */,
+				94F434661ED1E08C00DEE9E8 /* vyhodnoceni_spatne.png in Resources */,
 				94899DBD1EBC62D000CB7BA2 /* TitleTextBottomImageSlide.xib in Resources */,
 				940E09791EC5E51600C40971 /* ToggleWithLabel.xib in Resources */,
 				94899DB81EBC62D000CB7BA2 /* SplitImageDescSubtitleSlide.xib in Resources */,
