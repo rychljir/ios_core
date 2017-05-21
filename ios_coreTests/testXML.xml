@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionset maxTries="1">
+    <task name="task01">
+        <location>
+            <latitude>50.0767542</latitude>
+            <longitude>14.4201933</longitude>
+        </location>
+        <questionslide name="firstScreen" title="" layout="h_quest_quest" />
+        <questionslide name="task01a" title="" layout="v_quest_img">
+            <header>Kralupské nádraží</header>
+            <description><![CDATA[Ještě v roce 1850 byly Kralupy malou osadou s 27 domky. Obrovský rozvoj města přinesla železnice, v té době hlavní dopravní prostředek.  Nejprve došlo k propojení s Prahou, poté i s Kladnem, díky čemuž se z Kladna do Kralup začalo vozit uhlí. To se zde překládalo na lodě plující po Vltavě a Kralupy se staly dopravním uzlem. Záhy tu vznikla loděnice i první chemická továrna a počet obyvatel rychle rostl. Z malé vesničky je dnes středně velké město s 18 tisíci obyvateli a železnice je pro něj stále velmi důležitá. Zastavují tu rychlíky spojující Prahu s Ústí nad Labem, mezinárodní vlaky směřující do Německa tudy jen projíždí.]]></description>
+        </questionslide>
+        <questionslide name="task01b_map" title="" layout="v_quest_img">
+               <description>Prohlédněte si starou mapu Kralup z roku 1850.</description>
+               <images>task01_3_map</images>
+        </questionslide>
+        <questionslide name="LockBeforeTaskFragment" type="custom" />
+        <questionslide name="task01c" layout="custom1">
+	        <questions>
+                <question type="sort" shuffle="true">
+                    <description><![CDATA[Seřaďte druhy vlaků, které můžete využít v České republice, od nejpomalejších (nejčastěji zastavujících) po nejrychlejší:]]></description>
+                    <variant>Osobní vlak</variant>
+					<variant>Spěšný vlak</variant>
+					<variant>Rychlík</variant>
+					<variant>Express</variant>
+					<variant>EuroCity</variant>
+                </question>
+            </questions>
+        </questionslide>
+    </task>
+    <task name="task02">
+        <location>
+            <latitude>50.0767552</latitude>
+            <longitude>14.4211933</longitude>
+        </location>
+        <questionslide name="firstScreen" title="" layout="h_quest_quest" />
+        <questionslide name="task02a" title="namesti" layout="v_quest_img">
+            <header>Technopark</header>
+            <description><![CDATA[Nacházíte se před moderní budovou, která slouží jako nový technologický park Vysoké školy chemicko-technologické. Dnes se tu usadil špičkový chemický výzkum zaměřený na stavební materiály, který se do tohoto průmyslového města hodí. Ale ještě před pár lety to vypadalo úplně jinak. Již od roku 1867 tu fungovaly velké mlýny, které vydržely až do velké vody v roce 2002. Po zničení povodněmi už se výroba neobnovila a budova chátrala. Až v letech 2013-14 došlo k přestavbě na moderní technologické centrum, které vidíte před sebou. Jedná se o jedno z nejmodernějších výzkumných technologických center v naší zemi.]]></description>
+        </questionslide>
+        <questionslide name="task02b" title="namesti" layout="v_quest_img">
+            <description><![CDATA[Podívejte se, jak Kralupské mlýny na tomto místě vypadaly z pohledu od nedaleké školy, a jak probíhala rekonstrukce:]]></description>
+        </questionslide>
+        <questionslide name="Task02TimeLine1" type="custom" />
+        <questionslide name="Task02TimeLine2" type="custom" />
+        <questionslide name="Task02TimeLine3" type="custom" />
+        <questionslide name="LockBeforeTaskFragment" type="custom" />
+        <questionslide name="task02c" layout="v_quest_img">
+	        <questions>
+	            <question type="singlechoice" shuffle="true" validate="true">
+	                <description><![CDATA[Jaký typ badatelské činnosti se podle Vás uvnitř odehrává?]]></description>
+	                <variant valid="true">zjišťují se chemické a fyzikální vlastnosti různých látek</variant>
+	                <variant valid="false">provádí se pokusy na zvířatech</variant>
+	                <variant valid="false">testují se zbraně pro armádu</variant>
+	                <variant valid="false">provádí se ekonomické analýzy</variant>
+	                <variant valid="false">vyvíjí se špičkový počítačový software</variant>
+	            </question>
+	        </questions>
+        </questionslide>
+    </task>
+    <task name="task03">
+        <location>
+            <latitude>50.0767562</latitude>
+            <longitude>14.4221933</longitude>
+        </location>
+        <questionslide name="firstScreen" title="" layout="h_quest_quest" />
+        <questionslide name="task03a" title="" layout="v_quest_img">
+            <header>Jodlův dům</header>
+            <description><![CDATA[Ve většině jiných českých měst bychom si takového domečku asi ani nevšimli. Ale protože Kralupy nemají typické historické centrum, tak právě zde stojíte před nejstarším obytným domem ve městě!  Je to bývalý statek, na kterém několik staletí hospodařil rod Jodlů. V roce 1791 se tu narodil Jan Křestitel Jodl Kralupský (obr.), který se poté stal významným českým lingvistou působícím v době národního obrození, kdy se čeština vzpamatovávala z úpadku (úředním jazykem byla němčina).]]></description>
+            <images>task03_jodl</images>
+        </questionslide>
+        <questionslide name="task03a2" title="" layout="v_quest_img">
+            <description>Jodl plynně mluvil všemi slovanskými jazyky, ale češtinu miloval. Přispíval do obrozeneckých časopisů a napsal několik jazykovědných knih. Dlouho působil v Praze, ale závěr života strávil opět v tomto domku, kde i zemřel. Nyní budovu a přilehlý pozemek využívá místní Sokol, který je koupil od Jodlových potomků v roce 1920.</description>
+        </questionslide>
+        <questionslide name="task03a3" title="" layout="v_quest_img">
+            <description>A takhle vypadala titulní strana jednoho z Jodlových děl, vydaného v roce 1866:</description>
+            <images>task03_jodlova_kniha</images>
+        </questionslide>
+        <questionslide name="LockBeforeTaskFragment" type="custom" />
+        <questionslide name="task03b" layout="v_quest_img" >
+	        <questions>
+	            <question type="singlechoice" shuffle="true" validate="true">
+	                <description><![CDATA[Štít domu vznikl až v roce 1932, ale byl postaven v duchu významného architektonického stylu. Poznáte podle vzhledu průčelí, o jaký sloh se jedná?]]></description>
+	                <variant valid="false">Románský sloh</variant>
+	                <variant valid="false">Gotika</variant>
+	                <variant valid="false">Renesance</variant>
+	                <variant valid="true">Baroko</variant>
+	                <variant valid="false">Moderní architektura</variant>
+	            </question>
+	        </questions>
+        </questionslide>
+        <questionslide name="task03c" layout="v_quest_img">
+	        <questions>
+	            <question type="singlechoice" shuffle="true" validate="true">
+	                <description><![CDATA[Označte jazyk, který není slovanský:]]></description>
+	                <variant valid="false">slovenština</variant>
+	                <variant valid="true">maďarština</variant>
+	                <variant valid="false">polština</variant>
+	                <variant valid="false">chorvatština</variant>
+	                <variant valid="false">ruština</variant>
+	            </question>
+	        </questions>
+        </questionslide>
+    </task>
+     <task name="task04">
+         <location>
+             <latitude>50.0767572</latitude>
+             <longitude>14.4231933</longitude>
+         </location>
+        <questionslide name="firstScreen" title="" layout="h_quest_quest" />
+        <questionslide name="task04a" title="" layout="v_quest_img">
+            <header>Kostel</header>
+            <description><![CDATA[Nacházíte se u kostela Nanebevzetí Panny Marie a sv. Václava, který vypadá jako poměrně starý, protože se jeho stavitelé snažili o napodobení gotického stylu. Postaven byl ale až na konci 19. století, k vysvěcení došlo v roce 1898. Díky tomu se Kralupy mohly stát městem. Na konci druhé světové války kostel jako jedna z mála staveb přežil bombardování města spojeneckými letadly. V té době sloužily jeho útroby jako márnice. Na tomto místě si můžeme povšimnout zajímavého kontrastu architektury. Zatímco kostel na západě je pseudogotický, severním směrem vidíme socialistickou architekturu obchodního centra a na východě pak moderní architekturu nedávno postavené budovy městského úřadu. Která stavba se vám líbí nejvíc?]]></description>
+        </questionslide>
+        <questionslide name="ARInfoFragment" type="custom" />
+        <questionslide name="task04b" title="" layout="v_quest_img">
+            <header>Kostel</header>
+            <description><![CDATA[Dojděte ke kostelu a na jeho západní stěně si prohlédněte ještě pamětní desku, na které je vytesán verš od slavného básníka Jaroslava Seiferta zasvěcený obětem bombardování Kralup. Jaroslav Seifert je na kralupském hřbitově také pohřben....]]></description>
+        </questionslide>
+        <questionslide name="LockBeforeTaskFragment" type="custom" />
+        <questionslide name="task04c" layout="v_quest_img">
+            <header>Kostel</header>
+	        <questions>
+	            <question type="intervalquestion" validate="true">
+	                <description><![CDATA[Odhadněte výšku této kostelní věže v metrech:]]></description>
+	                <variant valid="true">63;50;80;20;100;1</variant>
+	            </question>
+	        </questions>
+        </questionslide>
+    </task>
+     <task name="task05">
+         <location>
+             <latitude>50.0767582</latitude>
+             <longitude>14.4241933</longitude>
+         </location>
+        <questionslide name="firstScreen" title="" layout="h_quest_quest" />
+        <questionslide name="task05a" title="" layout="v_quest_img">
+            <header>Památník padlým</header>
+            <description><![CDATA[Během druhé světové války se Kralupy staly nejvíce postižených českým městem – jen při leteckém bombardování 22. března 1945 tu zemřelo 145 lidí. Další místní lidé ale umírali průběžně během války - nejen druhé, ale i té první světové. A pro všechny byl postaven památník, který si tu můžete prohlédnout.]]></description>
+        </questionslide>
+        <questionslide name="LockBeforeTaskFragment" type="custom" />
+        <questionslide name="task05b" layout="v_quest_img">
+            <header>Památník padlým</header>
+	        <questions>
+	            <question type="singlechoice" shuffle="true" validate="true">
+	                <description><![CDATA[Na památníku si můžete přečíst, že je tu uložena prsť z bojišť. Víte, co je to prsť?]]></description>
+	                <variant valid="false">zbytky těl padlých vojáků </variant>
+	                <variant valid="false">zbytky použitých zbraní</variant>
+	                <variant valid="true">povrchová zemina</variant>
+	                <variant valid="false">náboje do zbraní použité v bitvě</variant>
+	                <variant valid="false">uříznuté prsty neposlušných vojáků</variant>
+	            </question>
+	        </questions>
+        </questionslide>
+    </task>
+</questionset>

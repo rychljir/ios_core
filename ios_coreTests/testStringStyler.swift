@@ -1,15 +1,15 @@
 //
-//  ios_coreTests.swift
-//  ios_coreTests
+//  testStringStyler.swift
+//  ios_core
 //
-//  Created by Jiri Rychlovsky on 04.05.17.
+//  Created by Jiri Rychlovsky on 21.05.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
 import XCTest
 @testable import ios_core
 
-class ios_coreTests: XCTestCase {
+class testStringStyler: XCTestCase {
     
     var styler: StringStyler!
     
