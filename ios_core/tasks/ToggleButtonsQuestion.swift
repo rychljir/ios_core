@@ -86,15 +86,16 @@ public class ToggleButtonsQuestion: UIView {
             }else{
                 correctAnswer = 1
             }
+            let bundle = Bundle(for: ToggleButtonsQuestion.self)
             if correctAnswer != filledAnswer{
                 let evalImg = UIImageView(frame: CGRect(x: toggles[i].frame.maxX-30, y: toggles[i].center.y-25, width: CGFloat(50), height: CGFloat(50)))
                 evalImg.contentMode = UIViewContentMode.scaleAspectFit
-                evalImg.image = UIImage(named: "vyhodnoceni_spatne")
+                evalImg.image = UIImage(named: "vyhodnoceni_spatne", in: bundle, compatibleWith: nil)
                 self.addSubview(evalImg)
             }else{
                 let evalImg = UIImageView(frame: CGRect(x: toggles[i].frame.maxX-30, y: toggles[i].center.y-25, width: CGFloat(70), height: CGFloat(70)))
                 evalImg.contentMode = UIViewContentMode.scaleAspectFit
-                evalImg.image = UIImage(named: "vyhodnoceni_spravne")
+                evalImg.image = UIImage(named: "vyhodnoceni_spravne", in: bundle, compatibleWith: nil)
                 self.addSubview(evalImg)
             }
         }

@@ -79,10 +79,11 @@ public class IntervalQuestion: UIView, UIPickerViewDelegate, UIPickerViewDataSou
                 correct = false
             }
         }
+        let bundle = Bundle(for: IntervalQuestion.self)
         if(correct){
             let evalImg = UIImageView(frame: CGRect(x: picker.frame.maxX-30, y: picker.center.y-25, width: CGFloat(100), height: CGFloat(100)))
             evalImg.contentMode = UIViewContentMode.scaleAspectFit
-            evalImg.image = UIImage(named: "vyhodnoceni_spravne")
+            evalImg.image = UIImage(named: "vyhodnoceni_spravne", in: bundle, compatibleWith: nil)
             self.addSubview(evalImg)
             let correctNumber = UILabel(frame: CGRect(x: picker.center.x-75, y: picker.frame.maxY+20, width: CGFloat(150), height: CGFloat(50)))
             correctNumber.text = pickerAnswer?.correct
@@ -93,7 +94,7 @@ public class IntervalQuestion: UIView, UIPickerViewDelegate, UIPickerViewDataSou
         }else{
             let evalImg = UIImageView(frame: CGRect(x: picker.frame.maxX-30, y: picker.center.y-25, width: CGFloat(100), height: CGFloat(100)))
             evalImg.contentMode = UIViewContentMode.scaleAspectFit
-            evalImg.image = UIImage(named: "vyhodnoceni_spatne")
+            evalImg.image = UIImage(named: "vyhodnoceni_spatne", in: bundle, compatibleWith: nil)
             self.addSubview(evalImg)
             let correctNumber = UILabel(frame: CGRect(x: picker.center.x-75, y: picker.frame.maxY+20, width: CGFloat(150), height: CGFloat(50)))
             correctNumber.text = pickerAnswer?.correct

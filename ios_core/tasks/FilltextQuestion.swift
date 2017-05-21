@@ -64,15 +64,16 @@ public class FilltextQuestion: UIView, UITextFieldDelegate  {
     
     public func completeTask(){
         textfield.isUserInteractionEnabled = false
+        let bundle = Bundle(for: FilltextQuestion.self)
         if(evaluate()){
             let evalImg = UIImageView(frame: CGRect(x: textfield.frame.maxX-30, y: textfield.center.y-50, width: CGFloat(100), height: CGFloat(100)))
             evalImg.contentMode = UIViewContentMode.scaleAspectFit
-            evalImg.image = UIImage(named: "vyhodnoceni_spravne")
+            evalImg.image = UIImage(named: "vyhodnoceni_spravne", in: bundle, compatibleWith: nil)
             self.addSubview(evalImg)
         }else{
             let evalImg = UIImageView(frame: CGRect(x: textfield.frame.maxX-30, y: textfield.center.y-50, width: CGFloat(100), height: CGFloat(100)))
             evalImg.contentMode = UIViewContentMode.scaleAspectFit
-            evalImg.image = UIImage(named: "vyhodnoceni_spatne")
+            evalImg.image = UIImage(named: "vyhodnoceni_spatne", in: bundle, compatibleWith: nil)
             self.addSubview(evalImg)
             let correctAnswer = UILabel(frame: CGRect(x: textfield.center.x-75, y: textfield.frame.maxY+20, width: CGFloat(150), height: CGFloat(50)))
             correctAnswer.text = question.variants[0]

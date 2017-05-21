@@ -84,8 +84,8 @@
                         <constraint firstAttribute="height" constant="31" id="Nal-3k-beN"/>
                         <constraint firstAttribute="width" constant="36" id="t3u-Zo-SYk"/>
                     </constraints>
-                    <state key="normal" image="ico_zoom.png"/>
-                    <state key="highlighted" image="ico_zoom_pressed.png"/>
+                    <state key="normal" image="ico_zoom"/>
+                    <state key="highlighted" image="ico_zoom_pressed"/>
                     <connections>
                         <action selector="btn1Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="bpD-e7-aHl"/>
                     </connections>
@@ -96,8 +96,8 @@
                         <constraint firstAttribute="height" constant="31" id="XDf-5R-56c"/>
                         <constraint firstAttribute="width" constant="36" id="s8V-pE-PCG"/>
                     </constraints>
-                    <state key="normal" image="ico_zoom.png"/>
-                    <state key="highlighted" image="ico_zoom_pressed.png"/>
+                    <state key="normal" image="ico_zoom"/>
+                    <state key="highlighted" image="ico_zoom_pressed"/>
                     <connections>
                         <action selector="btn2Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="yXW-PN-QO6"/>
                     </connections>
@@ -108,8 +108,8 @@
                         <constraint firstAttribute="width" constant="36" id="YAl-Ho-ktP"/>
                         <constraint firstAttribute="height" constant="31" id="nj4-J9-2tg"/>
                     </constraints>
-                    <state key="normal" image="ico_zoom.png"/>
-                    <state key="highlighted" image="ico_zoom_pressed.png"/>
+                    <state key="normal" image="ico_zoom"/>
+                    <state key="highlighted" image="ico_zoom_pressed"/>
                     <connections>
                         <action selector="btn3Click:" destination="iN0-l3-epB" eventType="touchUpInside" id="jlo-DJ-bfR"/>
                     </connections>
@@ -140,7 +140,7 @@
         </view>
     </objects>
     <resources>
-        <image name="ico_zoom.png" width="72" height="62"/>
-        <image name="ico_zoom_pressed.png" width="72" height="62"/>
+        <image name="ico_zoom" width="36" height="31"/>
+        <image name="ico_zoom_pressed" width="36" height="31"/>
     </resources>
 </document>

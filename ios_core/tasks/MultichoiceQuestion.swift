@@ -71,18 +71,19 @@ public class MultichoiceQuestion: UIView {
     }
     
     public func completeTask(){
+        let bundle = Bundle(for: MultichoiceQuestion.self)
         for i in 0 ..< question.answers.count{
             checkboxes[i].isUserInteractionEnabled = false
             let filledAnswer = checkboxes[i].isChecked
             if Bool(question.answers[i]) != filledAnswer{
                 let evalImg = UIImageView(frame: CGRect(x: checkboxes[i].frame.maxX-30, y: checkboxes[i].center.y-25, width: CGFloat(50), height: CGFloat(50)))
                 evalImg.contentMode = UIViewContentMode.scaleAspectFit
-                evalImg.image = UIImage(named: "vyhodnoceni_spatne")
+                evalImg.image = UIImage(named: "vyhodnoceni_spatne", in: bundle, compatibleWith: nil)
                 self.addSubview(evalImg)
             }else{
                 let evalImg = UIImageView(frame: CGRect(x: checkboxes[i].frame.maxX-30, y: checkboxes[i].center.y-25, width: CGFloat(70), height: CGFloat(70)))
                 evalImg.contentMode = UIViewContentMode.scaleAspectFit
-                evalImg.image = UIImage(named: "vyhodnoceni_spravne")
+                evalImg.image = UIImage(named: "vyhodnoceni_spravne", in: bundle, compatibleWith: nil)
                 self.addSubview(evalImg)
             }
         }

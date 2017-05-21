@@ -37,6 +37,9 @@ public class v_quest_img: UIView{
     
     //evaluation button
     @IBOutlet weak var evalBtn: UIButton!
+    
+    let correctToast = "Správnē!"
+    let failToast = "Ups, tak to se úplnē nepovedlo."
 
     //possible instances of question types
     var singleChoice: SingleChoiceQuestion?
@@ -207,13 +210,13 @@ public class v_quest_img: UIView{
         case "singlechoice":
             let correct = singleChoice!.evaluate()
             if !correct{
-                parentVC?.showToast(message: "Ups, tak to se úplnē nepovedlo.")
+                parentVC?.showToast(message: failToast)
                 if currentTries >= maxTries{
                     singleChoice!.completeTask()
                     evalBtn!.isEnabled = false
                 }
             }else{
-                parentVC?.showToast(message: "Správnē!")
+                parentVC?.showToast(message: correctToast)
                 singleChoice!.completeTask()
                 evalBtn!.isEnabled = false
             }
@@ -221,26 +224,26 @@ public class v_quest_img: UIView{
         case "multichoice":
             let correct = multiChoice!.evaluate()
             if !correct{
-                parentVC?.showToast(message: "Ups, tak to se úplnē nepovedlo.")
+                parentVC?.showToast(message: failToast)
                 if currentTries >= maxTries{
                     multiChoice!.completeTask()
                     evalBtn!.isEnabled = false
                 }
             }else{
-                parentVC?.showToast(message: "Správnē!")
+                parentVC?.showToast(message: correctToast)
                 multiChoice!.completeTask()
                 evalBtn!.isEnabled = false
             }
         case "intervalquestion":
             let correct = interval!.evaluate()
             if !correct{
-                parentVC?.showToast(message: "Ups, tak to se úplnē nepovedlo.")
+                parentVC?.showToast(message: failToast)
                 if currentTries >= maxTries{
                     interval!.completeTask()
                     evalBtn!.isEnabled = false
                 }
             }else{
-                parentVC?.showToast(message: "Správnē!")
+                parentVC?.showToast(message: correctToast)
                 interval!.completeTask()
                 evalBtn!.isEnabled = false
             }
@@ -248,13 +251,13 @@ public class v_quest_img: UIView{
         case "fillText":
             let correct = filltext!.evaluate()
             if !correct{
-                parentVC?.showToast(message: "Ups, tak to se úplnē nepovedlo.")
+                parentVC?.showToast(message: failToast)
                 if currentTries >= maxTries{
                     filltext!.completeTask()
                     evalBtn!.isEnabled = false
                 }
             }else{
-                parentVC?.showToast(message: "Správnē!")
+                parentVC?.showToast(message: correctToast)
                 filltext!.completeTask()
                 evalBtn!.isEnabled = false
             }
@@ -262,13 +265,13 @@ public class v_quest_img: UIView{
         case "numberquestion":
             let correct = number!.evaluate()
             if !correct{
-                parentVC?.showToast(message: "Ups, tak to se úplnē nepovedlo.")
+                parentVC?.showToast(message: failToast)
                 if currentTries >= maxTries{
                     number!.completeTask()
                     evalBtn!.isEnabled = false
                 }
             }else{
-                parentVC?.showToast(message: "Správnē!")
+                parentVC?.showToast(message: correctToast)
                 number!.completeTask()
                 evalBtn!.isEnabled = false
             }
@@ -276,13 +279,13 @@ public class v_quest_img: UIView{
         case "togglebuttonsgrid":
             let correct = toggle!.evaluate()
             if !correct{
-                parentVC?.showToast(message: "Ups, tak to se úplnē nepovedlo.")
+                parentVC?.showToast(message: failToast)
                 if currentTries >= maxTries{
                     toggle!.completeTask()
                     evalBtn!.isEnabled = false
                 }
             }else{
-                parentVC?.showToast(message: "Správnē!")
+                parentVC?.showToast(message: correctToast)
                 toggle!.completeTask()
                 evalBtn!.isEnabled = false
             }
