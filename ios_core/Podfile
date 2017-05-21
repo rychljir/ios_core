@@ -8,5 +8,4 @@ target 'ios_core' do
     pod 'AEXML'
     pod 'PureLayout'
     pod 'DLRadioButton'
-    pod 'DragDropUI'
 end
