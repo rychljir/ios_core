@@ -86,18 +86,18 @@ public class SingleChoiceQuestion: UIView {
         if answeredIndex == correctIndex{
             let evalImg = UIImageView(frame: CGRect(x: radios[correctIndex].frame.maxX-30, y: radios[correctIndex].center.y-25, width: CGFloat(50), height: CGFloat(50)))
             evalImg.contentMode = UIViewContentMode.scaleAspectFit
-            evalImg.image = UIImage(named: "vyhodnoceni_spravne")
+            evalImg.image = UIImage(named: "vyhodnoceni_spravne.png")
             self.addSubview(evalImg)
         }else{
             if(answeredIndex >= 0){
                 let evalImg = UIImageView(frame: CGRect(x: radios[answeredIndex].frame.maxX-30, y: radios[answeredIndex].center.y-25, width: CGFloat(50), height: CGFloat(50)))
                 evalImg.contentMode = UIViewContentMode.scaleAspectFit
-                evalImg.image = UIImage(named: "vyhodnoceni_spatne")
+                evalImg.image = UIImage(named: "vyhodnoceni_spatne.png")
                 self.addSubview(evalImg)
             }
             let evalImg = UIImageView(frame: CGRect(x: radios[correctIndex].frame.maxX-30, y: radios[correctIndex].center.y-25, width: CGFloat(70), height: CGFloat(70)))
             evalImg.contentMode = UIViewContentMode.scaleAspectFit
-            evalImg.image = UIImage(named: "vyhodnoceni_shouldbe")
+            evalImg.image = UIImage(named: "vyhodnoceni_shouldbe.png")
             self.addSubview(evalImg)
         }
         
