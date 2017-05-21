@@ -82,22 +82,22 @@ public class SingleChoiceQuestion: UIView {
                 break
             }
         }
-        
+        let bundle = Bundle(for: SingleChoiceQuestion.self)
         if answeredIndex == correctIndex{
             let evalImg = UIImageView(frame: CGRect(x: radios[correctIndex].frame.maxX-30, y: radios[correctIndex].center.y-25, width: CGFloat(50), height: CGFloat(50)))
             evalImg.contentMode = UIViewContentMode.scaleAspectFit
-            evalImg.image = UIImage(named: "vyhodnoceni_spravne.png")
+            evalImg.image = UIImage(named: "vyhodnoceni_spravne", in: bundle, compatibleWith: nil)
             self.addSubview(evalImg)
         }else{
             if(answeredIndex >= 0){
                 let evalImg = UIImageView(frame: CGRect(x: radios[answeredIndex].frame.maxX-30, y: radios[answeredIndex].center.y-25, width: CGFloat(50), height: CGFloat(50)))
                 evalImg.contentMode = UIViewContentMode.scaleAspectFit
-                evalImg.image = UIImage(named: "vyhodnoceni_spatne.png")
+                evalImg.image = UIImage(named: "vyhodnoceni_spatne", in: bundle, compatibleWith: nil)
                 self.addSubview(evalImg)
             }
             let evalImg = UIImageView(frame: CGRect(x: radios[correctIndex].frame.maxX-30, y: radios[correctIndex].center.y-25, width: CGFloat(70), height: CGFloat(70)))
             evalImg.contentMode = UIViewContentMode.scaleAspectFit
-            evalImg.image = UIImage(named: "vyhodnoceni_shouldbe.png")
+            evalImg.image = UIImage(named: "vyhodnoceni_shouldbe", in: bundle, compatibleWith: nil)
             self.addSubview(evalImg)
         }
         
