@@ -44,6 +44,8 @@ public class Checkbox: UIButton {
     private func initCheckbox() {
         self.addTarget(self, action: #selector(Checkbox.buttonClicked(sender:)), for: UIControlEvents.touchUpInside)
         self.isChecked = false
+        self.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
+        self.titleLabel?.numberOfLines = 0
     }
     
     
