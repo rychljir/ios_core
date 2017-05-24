@@ -2,7 +2,7 @@
 //  ArrayShuffler.swift
 //  ios_core
 //
-//  Created by Petr Mares on 21.05.17.
+//  Created by Jiri Rychlovsky on 21.05.17.
 //  Copyright © 2017 Scientica. All rights reserved.
 //
 
